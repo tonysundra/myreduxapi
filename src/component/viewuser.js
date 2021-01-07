@@ -16,7 +16,6 @@ class Viewuser extends React.Component {
 
   render() {
     const { users, loading } = this.props;
-//    return <div>{JSON.stringify(users, null, 2)}</div>
     if (loading) {
       return <h2>Loading...</h2>;
     }
